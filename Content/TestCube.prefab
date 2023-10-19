@@ -1,0 +1,48 @@
+{
+	"ID": "b50a30ca4c999103820e74af27b6cc56",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6400,
+	"Data": [
+	{
+		"ID": "37b38f804545b444d40cb3a2db91605c",
+		"TypeName": "Game.CustomActor",
+		"V": {},
+		"Name": "CustomActor"
+	},
+	{
+		"ID": "6990ecbd4fe18c25fd7bf382b455e732",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "37b38f804545b444d40cb3a2db91605c",
+		"Name": "BoxCollider",
+		"Size": {
+			"X": 1000.0,
+			"Y": 1000.0,
+			"Z": 1000.0
+		}
+	},
+	{
+		"ID": "d3bac7aa49281a3b1f7237b1adf70a1a",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "6990ecbd4fe18c25fd7bf382b455e732",
+		"Name": "StaticModel",
+		"Transform": {
+			"Scale": {
+				"X": 1000.0,
+				"Y": 1000.0,
+				"Z": 1000.0
+			}
+		},
+		"Model": "50310067422bada39f9553b41c4869a4",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "8391b6da40053a988a0959ab9f26f700",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

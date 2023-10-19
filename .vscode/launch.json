@@ -1,0 +1,101 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "coreclr",
+			"name": "Game|Editor.Windows.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "Playground|Editor.Windows.Debug|x64",
+			"cwd": "E:\\space\\Playground",
+			"program": "E:\\space\\FlaxEngine\\Binaries\\Editor\\Win64\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\space\\Playground",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Editor.Windows.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "Playground|Editor.Windows.Development|x64",
+			"cwd": "E:\\space\\Playground",
+			"program": "E:\\space\\FlaxEngine\\Binaries\\Editor\\Win64\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\space\\Playground",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Editor.Windows.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "Playground|Editor.Windows.Release|x64",
+			"cwd": "E:\\space\\Playground",
+			"program": "E:\\space\\FlaxEngine\\Binaries\\Editor\\Win64\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\space\\Playground",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "Playground|Game.Windows.Debug|x64",
+			"cwd": "E:\\space\\Playground",
+			"program": "E:\\space\\FlaxEngine\\Binaries\\Editor\\Win64\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\space\\Playground",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "Playground|Game.Windows.Development|x64",
+			"cwd": "E:\\space\\Playground",
+			"program": "E:\\space\\FlaxEngine\\Binaries\\Editor\\Win64\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\space\\Playground",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Game|Game.Windows.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "Playground|Game.Windows.Release|x64",
+			"cwd": "E:\\space\\Playground",
+			"program": "E:\\space\\FlaxEngine\\Binaries\\Editor\\Win64\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\space\\Playground",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "Playground (C# Attach Editor)",
+			"request": "attach",
+			"processName": "FlaxEditor"
+		}
+	]
+}

@@ -1,0 +1,137 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Game|Editor.Windows.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\FlaxEngine\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\space\\Playground\\\"",
+				"-arch=x64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\space\\Playground"
+			}
+		},
+		{
+			"label": "Game|Editor.Windows.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"command": "..\\FlaxEngine\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\space\\Playground\\\"",
+				"-arch=x64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\space\\Playground"
+			}
+		},
+		{
+			"label": "Game|Editor.Windows.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\FlaxEngine\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\space\\Playground\\\"",
+				"-arch=x64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\space\\Playground"
+			}
+		},
+		{
+			"label": "Game|Game.Windows.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\FlaxEngine\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\space\\Playground\\\"",
+				"-arch=x64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\space\\Playground"
+			}
+		},
+		{
+			"label": "Game|Game.Windows.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\FlaxEngine\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\space\\Playground\\\"",
+				"-arch=x64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\space\\Playground"
+			}
+		},
+		{
+			"label": "Game|Game.Windows.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\FlaxEngine\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\space\\Playground\\\"",
+				"-arch=x64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\space\\Playground"
+			}
+		}
+	]
+}
